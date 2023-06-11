@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Focus Forge</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <button id="start" onclick="start()">Start</button>
+  <div id="score"></div>
+  <div id="lives"></div>
+  <div id="menu"> 
+    <div id="title">Focus Forge</div>
+    <button id="play" onclick="play()">Play</button>
+    <br>
+    <button id="instructions" onclick="instructions()">Instructions</button>
+  </div>
+  <div id="iBox">
+    <div>Instructions
+      <p>The objective of Focus Forge is for you to click the target with your mouse before it relocates to increase your score. As your score increases
+        the game gets harder, however you are rewarded with a tip about studying and ADHD. To start playing press back and play! Enjoy hitting those targets!
+      </p>
+    </div>
+  </div>
+  <canvas id="gameCanvas" width="1920" height="1080"> 
+  </canvas>
+  <button id="start" onclick="start()">Start</button>
+  <div id="target"></div>
+  <div id="bullsEye"></div>
+  <div id="lose">You Lost!
+    <button id="restart" onclick="restart()">Restart</button>
+  </div>
+  <button id="back" onclick="back()">Back</button>
+  <div id="prompt">Quick Tip!
+    <p id="promptText">a</p>
+    <button id="continue" onclick="continueB()">Continue</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
