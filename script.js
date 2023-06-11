@@ -89,6 +89,7 @@ class Game
       document.getElementById("score").innerHTML = ("Score: " + t.score);
       document.getElementById("prompt").style.display = "inline-block";
       document.getElementById("continue").style.display = "inline-block";
+      document.getElementById("back").style.display = "none";
       document.getElementById("promptText").innerHTML = prompts[Math.floor(Math.random()*9)];
       this.countdown = 100 - this.scoreMult*7;
       this.scoreMult ++;
