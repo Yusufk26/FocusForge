@@ -145,6 +145,8 @@ function back()
   document.getElementById("score").style.display = "none";
   document.getElementById("lives").style.display = "none";
   document.getElementById("lose").style.display = "none";
+  document.getElementById("prompt").style.display = "none";
+  document.getElementById("continueB").style.display = "none";
   t.reset();
 }
 function play()
