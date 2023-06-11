@@ -147,6 +147,7 @@ function back()
   document.getElementById("lose").style.display = "none";
   document.getElementById("prompt").style.display = "none";
   document.getElementById("continueB").style.display = "none";
+  console.log("code is running);
   t.reset();
 }
 function play()
