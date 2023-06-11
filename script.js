@@ -135,6 +135,7 @@ const t = new Game(); //creates instance of class
 function back()
 {
   clearInterval(game);
+  t.reset();
   document.getElementById("menu").style.display = "block";
   document.getElementById("play").style.display = "block";
   document.getElementById("instructions").style.display = "block";
@@ -148,7 +149,6 @@ function back()
   document.getElementById("prompt").style.display = "none";
   document.getElementById("continueB").style.display = "none";
   console.log("code is running);
-  t.reset();
 }
 function play()
 {
